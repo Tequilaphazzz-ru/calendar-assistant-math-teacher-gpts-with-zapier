@@ -78,4 +78,4 @@ This project demonstrates skills in:
 <img src="https://github.com/Tequilaphazzz/calendar-assistant-math-teacher-gpts-with-zapier/blob/main/screenshots/OpenAI.jpg" alt="Project illustration" style="width:50%;"/>
 <img src="https://github.com/Tequilaphazzz/calendar-assistant-math-teacher-gpts-with-zapier/blob/main/screenshots/Zapier1.jpg" alt="Project illustration" style="width:50%;"/>
 <img src="https://github.com/Tequilaphazzz/calendar-assistant-math-teacher-gpts-with-zapier/blob/main/screenshots/Zapier2.jpg" alt="Project illustration" style="width:50%;"/>
-<img src="https://github.com/Tequilaphazzz/calendar-assistant-math-teacher-gpts-with-zapier/blob/main/screenshots/calendar.jpg" alt="Project illustration" style="width:50%;"/>
+<img src="https://github.com/Tequilaphazzz/calendar-assistant-math-teacher-gpts-with-zapier/blob/main/screenshots/сalendar.jpg" alt="Project illustration" style="width:50%;"/>
