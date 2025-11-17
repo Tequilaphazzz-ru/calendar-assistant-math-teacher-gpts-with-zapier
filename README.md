@@ -1,81 +1,75 @@
-# Project: Calendar Assistant and Math Teacher GPTs with Actions via Zapier
+# Проект: Ассистент календаря и Учитель математики GPTs с Actions через Zapier
 
-## Project Description
-This project demonstrates the full implementation of integrating OpenAI's GPT with external services via the Zapier platform. Developed as part of a portfolio, the project includes two intelligent assistants configured to perform specific tasks:
+## Описание проекта
+Этот проект демонстрирует полную реализацию интеграции GPT от OpenAI с внешними сервисами через платформу Zapier. Разработанный как часть портфолио, проект включает два интеллектуальных ассистента, настроенных для выполнения определённых задач:
 
-1. **Calendar Assistant**: A smart assistant that can manage events in Google Calendar, including creating, searching, and organizing events using natural language.
-2. **Math Teacher**: An educational assistant that generates math problems for students, evaluates their answers, and saves the results to Google Sheets for further analysis.
+1. **Ассистент календаря**: Умный помощник, который может управлять событиями в Google Calendar, включая создание, поиск и организацию событий с использованием естественного языка.
+2. **Учитель математики**: Образовательный помощник, который генерирует задачи по математике для учеников, оценивает их ответы и сохраняет результаты в Google Sheets для дальнейшего анализа.
 
-## Technologies Used
-- **OpenAI GPT (ChatGPT)**: For processing natural language requests and performing tasks.
-- **Zapier**: For automation and integration with external applications.
-- **Google Calendar**: For event management.
-- **Google Sheets**: For data storage and analysis.
+## Используемые технологии
+- **OpenAI GPT (ChatGPT)**: Для обработки запросов на естественном языке и выполнения задач.
+- **Zapier**: Для автоматизации и интеграции с внешними приложениями.
+- **Google Calendar**: Для управления событиями.
+- **Google Sheets**: Для хранения и анализа данных.
 
-## Key Implementation Aspects
+## Основные аспекты реализации
 
-### 1. Calendar Assistant
-- **Capabilities**:
-  - Creating detailed events in Google Calendar based on user requests.
-  - Searching and displaying upcoming events.
-  - Handling time zones and dynamically adding event descriptions.
-- **Interaction Examples**:
-  - Example Query: "Schedule a meeting titled \"AI Conference\" for March 15, 2025, from 10:00 AM to 12:00 PM."
-  - Users receive instant feedback and confirmation about created events.
+### 1. Ассистент календаря
+- **Возможности**:
+  - Создание детализированных событий в Google Calendar на основе запросов пользователя.
+  - Поиск и отображение предстоящих событий.
+  - Обработка часовых поясов и динамическое добавление описаний событий.
+- **Примеры взаимодействия**:
+  - Пример запроса: "Запланируй встречу с названием \"Конференция по ИИ\" на 15 марта 2025 года с 10:00 до 12:00."
+  - Пользователи получают мгновенную обратную связь и подтверждение о созданных событиях.
 
-### 2. Math Teacher
-- **Capabilities**:
-  - Generating personalized math problems for elementary school students.
-  - Automatic evaluation of student answers.
-  - Recording student name, assignment, answer, and grade in Google Sheets.
-- **Interaction Examples**:
-  - Example Query: "Give me a math problem."
-  - The assistant interacts step-by-step, ensuring a logical and clear interaction.
+### 2. Учитель математики
+- **Возможности**:
+  - Генерация персонализированных математических задач для учеников начальных классов.
+  - Автоматическая проверка ответов учеников.
+  - Запись имени ученика, задания, ответа и оценки в Google Sheets.
+- **Примеры взаимодействия**:
+  - Пример запроса: "Дай мне задачку по математике."
+  - Ассистент взаимодействует пошагово, обеспечивая логическое и понятное взаимодействие.
 
-## Key Features
-- **Seamless Integration**:
-  - Using the Zapier Actions feature to connect GPT with Google services.
-  - No programming required for deployment.
-- **Error Handling**:
-  - Built-in instructions for troubleshooting issues, such as time zone errors or incomplete data.
-- **Scalability**:
-  - Possibility of adding new integrations, such as Slack, Telegram, or project management tools.
+## Ключевые особенности
+- **Бесшовная интеграция**:
+  - Использование функции Actions от Zapier для связи GPT с сервисами Google.
+  - Отсутствие необходимости программирования для развёртывания.
+- **Обработка ошибок**:
+  - Встроенные инструкции для устранения проблем, таких как ошибки с часовыми поясами или неполные данные.
+- **Масштабируемость**:
+  - Возможность добавления новых интеграций, таких как Slack, Telegram или инструменты для управления проектами.
 
-## Challenges Overcome
-- **Time Zone Management**:
-  - Developed a structured approach to clarify and manage event scheduling across different time zones.
-- **Dynamic Data Storage**:
-  - Implemented reliable integration with Google Sheets for seamless data recording and storage.
+## Преодолённые вызовы
+- **Управление часовыми поясами**:
+  - Разработан структурированный подход для уточнения и управления расписанием событий в разных часовых поясах.
+- **Динамическое хранение данных**:
+  - Реализована надёжная интеграция с Google Sheets для беспроблемной записи и хранения данных.
 
-## Project Links
+## Ссылки на проект
 
-### Assistant Links
+### Ссылки на ассистентов
 - **Math Trainer**: [https://chatgpt.com/g/g-674474930bcc81919e0ea747372700da-trener-po-matematike-uchenika-mladshikh-klassov](https://chatgpt.com/g/g-674474930bcc81919e0ea747372700da-trener-po-matematike-uchenika-mladshikh-klassov)
 - **Calendar**: [https://chatgpt.com/g/g-6744975a7ca481918c16123c44ab0074-kalendar](https://chatgpt.com/g/g-6744975a7ca481918c16123c44ab0074-kalendar)
 
-### Project Files
-- **Instructions from Zarier.txt**: [https://github.com/Tequilaphazzz/calendar-assistant-math-teacher-gpts-with-zapier/blob/main/Instructions%20from%20Zarier.txt](https://github.com/Tequilaphazzz/calendar-assistant-math-teacher-gpts-with-zapier/blob/main/Instructions%20from%20Zarier.txt)
+### Файлы к проекту
+- **Instructions from Zapier.txt**: [https://github.com/Tequilaphazzz/calendar-assistant-math-teacher-gpts-with-zapier/blob/main/Instructions%20from%20Zarier.txt](https://github.com/Tequilaphazzz/calendar-assistant-math-teacher-gpts-with-zapier/blob/main/Instructions%20from%20Zarier.txt)
 - **Create Links to services.txt**: [https://github.com/Tequilaphazzz/calendar-assistant-math-teacher-gpts-with-zapier/blob/main/Llinks%20to%20services.txt](https://github.com/Tequilaphazzz/calendar-assistant-math-teacher-gpts-with-zapier/blob/main/Llinks%20to%20services.txt)
 - **Text instructions with assistant behavior**: [https://github.com/Tequilaphazzz/calendar-assistant-math-teacher-gpts-with-zapier/blob/main/Text%20instructions%20with%20assistant%20behavior](https://github.com/Tequilaphazzz/calendar-assistant-math-teacher-gpts-with-zapier/blob/main/Text%20instructions%20with%20assistant%20behavior)
 - [OpenAI GPT](https://openai.com/)
 - [Zapier](https://zapier.com/)
 - [Zapier GPT Actions Documentation](https://actions.zapier.com/docs/platform/gpt/)
 
-## Portfolio Impact
-This project demonstrates skills in:
-- Developing and deploying AI-based assistants.
-- Integrating AI with external automation platforms.
-- Solving real-world problems using advanced technologies.
-
-## Opportunities for Improvement
-- Adding multi-language support to enhance accessibility.
-- Introducing analytics to analyze math results in Google Sheets.
-- Exploring integration with voice assistants for convenient use.
+## Возможности для улучшения
+- Добавление поддержки нескольких языков для расширения доступности.
+- Введение аналитики для анализа математических результатов в Google Sheets.
+- Исследование интеграции с голосовыми ассистентами для удобного использования.
 
 ---
-## Project Screenshots:
-<img src="https://github.com/Tequilaphazzz/calendar-assistant-math-teacher-gpts-with-zapier/blob/main/screenshots/OpenAI3.jpg" alt="Project illustration" style="width:50%;"/>
-<img src="https://github.com/Tequilaphazzz/calendar-assistant-math-teacher-gpts-with-zapier/blob/main/screenshots/OpenAI.jpg" alt="Project illustration" style="width:50%;"/>
-<img src="https://github.com/Tequilaphazzz/calendar-assistant-math-teacher-gpts-with-zapier/blob/main/screenshots/Zapier1.jpg" alt="Project illustration" style="width:50%;"/>
-<img src="https://github.com/Tequilaphazzz/calendar-assistant-math-teacher-gpts-with-zapier/blob/main/screenshots/Zapier2.jpg" alt="Project illustration" style="width:50%;"/>
-<img src="https://github.com/Tequilaphazzz/calendar-assistant-math-teacher-gpts-with-zapier/blob/main/screenshots/сalendar.jpg" alt="Project illustration" style="width:50%;"/>
+## Скриншоты проекта:
+<img src="https://github.com/ZerocoderForstudents/Calendar-Assistant-Math-Teacher-GPTs-with-Actions-via-Zapier/blob/main/screenshots/Open%20AI%203.png" alt="Иллюстрация к проекту" style="width:50%;"/>
+<img src="https://github.com/ZerocoderForstudents/Calendar-Assistant-Math-Teacher-GPTs-with-Actions-via-Zapier/blob/main/screenshots/OpenAI.png" alt="Иллюстрация к проекту" style="width:50%;"/>
+<img src="https://github.com/ZerocoderForstudents/Calendar-Assistant-Math-Teacher-GPTs-with-Actions-via-Zapier/blob/main/screenshots/Zapier1.png" alt="Иллюстрация к проекту" style="width:50%;"/>
+<img src="https://github.com/ZerocoderForstudents/Calendar-Assistant-Math-Teacher-GPTs-with-Actions-via-Zapier/blob/main/screenshots/Zapier2.png" alt="Иллюстрация к проекту" style="width:50%;"/>
+<img src="https://github.com/ZerocoderForstudents/Calendar-Assistant-Math-Teacher-GPTs-with-Actions-via-Zapier/blob/main/screenshots/%D0%9A%D0%B0%D0%BB%D0%B5%D0%BD%D0%B4%D0%B0%D1%80%D1%8C.png" alt="Иллюстрация к проекту" style="width:50%;"/>
